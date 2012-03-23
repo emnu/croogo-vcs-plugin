@@ -47,16 +47,6 @@ class VcsAppModel extends AppModel {
 		}
 		return $str;
 	}
-
-	function clearHtmlCache() {
-		// clear cache
-		App::import('core', 'Folder');
-		$Folder = new Folder();
-		$Folder->delete(WWW_ROOT . 'cache');
-		$Folder->delete(WWW_ROOT . 'mobile');
-//		Cache::clear();
-	}
-
 }
 
 ?>

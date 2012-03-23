@@ -7,8 +7,8 @@ Requirement
 installation
 1. copy table blocks to blocks_dev
               links to links_dev
-			  menus to menus_dev
-			  nodes to nodes_dev
-			  regions to regions_dev
+              menus to menus_dev
+              nodes to nodes_dev
+              regions to regions_dev
 2. run sql file at config/schema/vcs.sql
 3. activate the plugin at admin

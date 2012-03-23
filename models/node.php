@@ -150,9 +150,6 @@ class Node extends VcsAppModel {
 		else {
 			$this->save($data);
 		}
-
-		//clear cache
-		$this->clearHtmlCache();
 	}
 
 	public function commitDel($id, $user_id) {
