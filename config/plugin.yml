@@ -1,0 +1,11 @@
+name: Versioning plugin
+description: Simple Versioning plugin
+
+author: Mohd Anuar Mohd Salleh
+authorEmail: mohd_anuar@syabas.com.my
+authorUrl: http://www.syabas.com.my
+
+dependencies:
+  plugins:
+    - acl
+    - extensions
