@@ -1,1 +1,14 @@
 vcs plugin
+
+Requirement
+1. download php-diff from https://github.com/chrisboulton/php-diff
+2. place the file in vendors/php_diff/
+
+installation
+1. copy table blocks to blocks_dev
+              links to links_dev
+			  menus to menus_dev
+			  nodes to nodes_dev
+			  regions to regions_dev
+2. run sql file at config/schema/vcs.sql
+3. activate the plugin at admin
